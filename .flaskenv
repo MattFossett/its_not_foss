@@ -1,1 +1,1 @@
-FLASK_APP=not_foss.py
+FLASK_APP=run.py
