@@ -34,7 +34,8 @@ waitress: production server:
 OUR PURPOSES:
 1. Activate venv:
         source venv/bin/activate
-2. Start flask server:
+2. Configure desired settings in run.py
+3. Start flask server:
         python3 run.py
 
 PUT UP PRODUCTION SERVER:
