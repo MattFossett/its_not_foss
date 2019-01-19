@@ -27,3 +27,19 @@ flask-login:
     pip install flask-login
 pillow: for picture processing
     pip install pillow
+waitress: production server:
+    pip install waitress
+
+
+OUR PURPOSES:
+1. Activate venv:
+        source venv/bin/activate
+2. Start flask server:
+        python3 run.py
+
+PUT UP PRODUCTION SERVER:
+
+1. Activate venv:
+        source venv/bin/activate
+2. Start up server with waitress:
+        waitress-serve --call 'not_foss:create_app'
