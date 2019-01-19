@@ -12,6 +12,8 @@ TODO:
     _ : Add stuff to about page
     _ : Make package with blueprints instead
     _ : Setup email recovery
+    _ : Chat section
+    _ : Or reply to post
 
 
 OUR PURPOSES:
