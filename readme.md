@@ -1,9 +1,20 @@
 # its_not_foss
 Web app for sharing dumb stuff in 141 cottage d 
 
-TODO: Look into pip freeze instead of needing venv on git
- WARNING: Do not use the development server in a production environment.
-   Use a production WSGI server instead.
+TODO: 
+    X : Look into pip freeze instead of needing venv on git
+        requirements.txt contains all dependencies 
+    _ : Posts contain images
+    _ : Update side bar
+    _ : Add stuff to about page
+    _ : 
+
+OUR PURPOSES:
+1. Activate venv:
+        source venv/bin/activate
+2. Configure desired settings in run.py
+3. Start flask server:
+        python3 run.py
 
 Here are the packages used:
 
@@ -29,18 +40,3 @@ pillow: for picture processing
     pip install pillow
 waitress: production server:
     pip install waitress
-
-
-OUR PURPOSES:
-1. Activate venv:
-        source venv/bin/activate
-2. Configure desired settings in run.py
-3. Start flask server:
-        python3 run.py
-
-PUT UP PRODUCTION SERVER:
-
-1. Activate venv:
-        source venv/bin/activate
-2. Start up server with waitress:
-        waitress-serve --call 'not_foss:create_app'
