@@ -1,13 +1,18 @@
 # its_not_foss
 Web app for sharing dumb stuff in 141 cottage d 
 
+Credit: Corey Schafer Flask series: 
+    https://www.youtube.com/watch?v=goToXTC96Co
+
 TODO: 
     X : Look into pip freeze instead of needing venv on git
-        requirements.txt contains all dependencies 
+            - requirements.txt contains all dependencies now
     _ : Posts contain images
     _ : Update side bar
     _ : Add stuff to about page
-    _ : 
+    _ : Make package with blueprints instead
+    _ : Setup email recovery
+
 
 OUR PURPOSES:
 1. Activate venv:
